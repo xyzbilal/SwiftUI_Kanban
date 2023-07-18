@@ -11,6 +11,8 @@
 		60DBCFF82A667AD1008B0950 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60DBCFF72A667AD1008B0950 /* ContentView.swift */; };
 		60DBCFFA2A667AE0008B0950 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60DBCFF92A667AE0008B0950 /* Assets.xcassets */; };
 		60DBCFFD2A667AE0008B0950 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60DBCFFC2A667AE0008B0950 /* Preview Assets.xcassets */; };
+		60DBD0062A667B10008B0950 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60DBD0052A667B10008B0950 /* Task.swift */; };
+		60DBD0082A667B7D008B0950 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60DBD0072A667B7D008B0950 /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		60DBCFF72A667AD1008B0950 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		60DBCFF92A667AE0008B0950 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		60DBCFFC2A667AE0008B0950 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		60DBD0052A667B10008B0950 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		60DBD0072A667B7D008B0950 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,8 @@
 		60DBCFF42A667AD1008B0950 /* Kanban */ = {
 			isa = PBXGroup;
 			children = (
+				60DBD0042A667AFB008B0950 /* Model */,
+				60DBD0032A667AE7008B0950 /* View */,
 				60DBCFF52A667AD1008B0950 /* KanbanApp.swift */,
 				60DBCFF72A667AD1008B0950 /* ContentView.swift */,
 				60DBCFF92A667AE0008B0950 /* Assets.xcassets */,
@@ -65,6 +71,22 @@
 				60DBCFFC2A667AE0008B0950 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		60DBD0032A667AE7008B0950 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				60DBD0072A667B7D008B0950 /* Home.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		60DBD0042A667AFB008B0950 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				60DBD0052A667B10008B0950 /* Task.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +160,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				60DBCFF82A667AD1008B0950 /* ContentView.swift in Sources */,
+				60DBD0062A667B10008B0950 /* Task.swift in Sources */,
+				60DBD0082A667B7D008B0950 /* Home.swift in Sources */,
 				60DBCFF62A667AD1008B0950 /* KanbanApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
